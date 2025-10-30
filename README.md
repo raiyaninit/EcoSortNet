@@ -5,7 +5,7 @@
 ---
 
 ### Problem Statement
-
+Modern waste management faces a growing challenge as global waste generation continues to rise each year. Organic waste (such as food scraps, garden material, and paper) and inorganic waste (such as plastics, metals, and glass) are often disposed of together, making effective recycling and treatment difficult.
 India generates millions of tons of waste every year, and improper disposal remains a major challenge. Organic waste (such as food scraps and garden material) and inorganic waste (such as plastics, metals, and glass) are often mixed together, leading to:
 
 - Rapidly filling landfills  
@@ -21,7 +21,7 @@ Currently, a large portion of waste management in India relies on manual segrega
 Through this project, I aim to build a **Convolutional Neural Network (CNN)** model capable of classifying waste images into **Organic** and **Recyclable** categories.  
 The goal is to develop a system that can provide quick, reliable predictions to assist in better waste segregation.
 
-This project explores how machine learning can support cleaner and more sustainable waste management practices by improving efficiency and reducing human involvement in hazardous processes.
+This project explores how machine learning can support cleaner and more sustainable waste management practices in hazardous processes.
 
 ---
 
