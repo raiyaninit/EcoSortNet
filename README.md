@@ -1,4 +1,4 @@
-![Banner](gitbanner.png)
+![Banner](gitbanner.jpg)
 
 # 🌿 Waste Classification Using CNN
 
