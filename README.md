@@ -1,2 +1,2 @@
 # EcoSortNet
-AICTE Internship Project – Waste Classification using CNN (Sustainability Theme).
+AICTE Internship Project – Green Skills using AI technologies CNN (Sustainability Theme).
