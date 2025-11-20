@@ -1,3 +1,4 @@
+gitbanner.jpg
 ♻️ EcoSortNet — Waste Classification Using CNN
 
 EcoSortNet is an AI-powered waste classification system that uses a Convolutional Neural Network (CNN) to categorize waste images into Organic and Recyclable categories.
@@ -178,5 +179,6 @@ NumPy
 Requests
 
 📄 License
+
 
 This project is licensed under the MIT License.
