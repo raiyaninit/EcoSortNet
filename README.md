@@ -1,71 +1,69 @@
-gitbanner.jpg
-♻️ EcoSortNet — Waste Classification Using CNN
+<!-- Banner Image -->
+<p align="center">
+  <img src="gitbanner.jpg" alt="Project Banner" width="100%">
+</p>
 
-EcoSortNet is an AI-powered waste classification system that uses a Convolutional Neural Network (CNN) to categorize waste images into Organic and Recyclable categories.
-The project includes a Flask backend API, a Streamlit frontend, and a trained TensorFlow/Keras model that provides real-time image classification.
+# EcoSortNet — Waste Classification Using CNN
 
-🌍 Problem Statement
+EcoSortNet is an AI-powered waste classification system that uses a Convolutional Neural Network (CNN) to categorize waste images into **Organic** and **Recyclable** types. The project includes a Flask backend API, a Streamlit frontend, and a trained TensorFlow/Keras model for real-time image classification.
 
-Global waste generation continues to increase each year. In India, where millions of tons of waste are produced annually, organic waste (food scraps, garden waste, paper) and inorganic waste (plastics, metal, glass) are often mixed. This leads to:
+---
 
-Rapidly filling landfills
+## 📌 Problem Statement
 
-Soil, water, and air pollution
+Global waste generation continues to rise every year. In countries like India, where millions of tons of waste are produced annually, **organic waste** (food scraps, garden material, paper) and **inorganic waste** (plastics, metals, glass) are often mixed together. This leads to:
 
-Health hazards for humans and animals
+- Rapidly filling landfills  
+- Soil, water, and air pollution  
+- Health hazards for humans and animals  
+- Inefficient recycling processes  
 
-Inefficient recycling processes
+Manual segregation remains common—slow, unsafe, and inconsistent.  
+**EcoSortNet aims to automate waste classification** using a CNN-based model to support cleaner and more sustainable waste management.
 
-Manual segregation is still widely used—slow, unsafe, and inconsistent.
-EcoSortNet aims to automate waste segregation using a CNN-based classification model to support cleaner and more sustainable waste management.
+---
 
-🧠 Project Overview
+## 🧠 Project Overview
 
-EcoSortNet uses a TensorFlow/Keras CNN model trained on real-world waste images to classify them into:
+EcoSortNet classifies waste images into:
 
-Organic
+- **Organic**  
+- **Recyclable**
 
-Recyclable
+The system includes:
 
-The system provides:
+- A trained CNN model  
+- A Flask backend for processing predictions  
+- A Streamlit frontend UI  
+- A clean, GitHub-inspired interface design  
 
-Fast and accurate predictions
+---
 
-A user-friendly Streamlit interface
+## ✨ Features
 
-A robust Flask backend for image processing
+### 🔹 AI Model
+- Convolutional Neural Network (CNN)
+- Trained using Kaggle’s Waste Classification dataset
 
-A clean UI inspired by GitHub’s modern design style
+### 🔹 Backend (Flask)
+- REST API for waste prediction
+- Accepts image uploads and returns JSON
 
-✨ Features
-AI Model
+### 🔹 Frontend (Streamlit)
+- Minimalist UI with clean components
+- Real-time image upload and classification
+- Smooth animations and modern result panel
 
-CNN-based waste classifier
+---
 
-Trained on Kaggle’s Waste Classification dataset
+## 📁 Project Structure
 
-Backend (Flask)
-
-REST API for predictions
-
-Accepts image uploads and returns JSON results
-
-Frontend (Streamlit)
-
-Minimalistic GitHub-style theme
-
-Smooth UI interactions and custom styling
-
-Real-time image upload and classification
-
-Clear and professional results panel
-
-📁 Project Structure
+```
 EcoSortNet/
 │
 ├── backend/
 │   ├── app.py               # Flask API backend
-│   └── uploads/             # Temp folder for uploaded images
+│   └── uploads/             # Temporary uploaded images
 │
 ├── frontend/
 │   └── app.py               # Streamlit frontend
@@ -73,112 +71,120 @@ EcoSortNet/
 ├── model/
 │   └── waste_model.h5       # Trained CNN model
 │
-├── dataset/                 # Kaggle dataset goes here
+├── dataset/                 # Kaggle dataset folder
 │
 ├── train_model.py           # Model training script
 ├── requirements.txt
 └── README.md
+```
 
-📥 Dataset
+---
 
-Kaggle Dataset:
-Waste Classification Data
+## 📥 Dataset
+
+**Kaggle Dataset:**  
+Waste Classification Data  
 https://www.kaggle.com/datasets/techsash/waste-classification-data
 
-Place the downloaded dataset folders inside:
+Place the dataset inside:
 
+```
 /dataset/
+```
 
-🧠 Train the Model
+---
+
+## 🧠 Train the Model
+
+```
 python train_model.py
+```
 
-🚀 Run the Backend (Flask)
+---
+
+## 🚀 Run the Backend (Flask)
+
+```
 cd backend
 pip install flask tensorflow pillow numpy
 python app.py
+```
 
+Backend runs at:
 
-Runs at:
-
+```
 http://127.0.0.1:5000
+```
 
-💻 Run the Frontend (Streamlit)
+---
+
+## 💻 Run the Frontend (Streamlit)
+
+```
 cd frontend
 pip install streamlit requests pillow
 streamlit run app.py
+```
 
+Frontend runs at:
 
-Access at:
-
+```
 http://localhost:8501
+```
 
-🧪 How to Use
+---
 
-Launch the Flask backend.
+## 🧪 How to Use
 
-Start the Streamlit frontend.
-
-Upload an image (JPG/JPEG/PNG).
-
-Click Classify Waste.
-
-The model predicts whether the waste is Organic or Recyclable.
+1. Start the Flask backend.  
+2. Run the Streamlit frontend.  
+3. Upload an image (JPG/JPEG/PNG).  
+4. Click **Classify Waste**.  
+5. The prediction (Organic or Recyclable) is displayed instantly.
 
 Temporary images are stored in:
 
+```
 backend/uploads/
+```
 
-📚 Weekly Progress
+---
 
-Week 1: Libraries, Data Import, and Setup
+## 📚 Weekly Progress
 
-Imported required libraries and frameworks
+### **Week 1 — Libraries, Data Import, and Setup**
+- Imported libraries and frameworks  
+- Built project folder structure  
+- Explored dataset  
+- Notebook: *Week1-Libraries-Importing-Data-Setup.ipynb*
 
-Set up folder structure and environment
+### **Week 2 — Model Training, Evaluation, Predictions**
+- Trained CNN model  
+- Evaluated performance metrics  
+- Generated confusion matrix  
+- Notebooks:  
+  - *Week2-Model-Training-Evaluation-Predictions.ipynb*  
+  - Kaggle Notebook
 
-Explored dataset
+### **Week 3 — Streamlit App & Deployment (4–7 Feb 2025)**
+- Built Streamlit UI  
+- Deployed model on Kaggle & GitHub  
+- Finalized documentation  
 
-Notebook: Week1-Libraries-Importing-Data-Setup.ipynb
+---
 
-Week 2: Model Training, Evaluation, and Predictions
+## 📦 Dependencies
 
-Trained CNN model
+- Python 3.10+  
+- Flask  
+- TensorFlow / Keras  
+- Streamlit  
+- Pillow  
+- NumPy  
+- Requests  
 
-Evaluated accuracy & loss
+---
 
-Visualized confusion matrix
+## 📄 License
 
-Notebooks:
-
-Week2-Model-Training-Evaluation-Predictions.ipynb
-
-Kaggle Notebook
-
-Week 3: Streamlit App and Deployment
-
-Developed Streamlit UI
-
-Deployed model on Kaggle and GitHub
-
-Completed documentation and README
-
-📦 Dependencies
-
-Python 3.10+
-
-Flask
-
-TensorFlow / Keras
-
-Streamlit
-
-Pillow
-
-NumPy
-
-Requests
-
-📄 License
-
-
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
