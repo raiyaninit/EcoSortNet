@@ -164,7 +164,6 @@ backend/uploads/
 - Generated confusion matrix  
 - Notebooks:  
   - *Week2-Model-Training-Evaluation-Predictions.ipynb*  
-  - Kaggle Notebook
 
 ### **Week 3 — Streamlit App & Deployment (4–7 Feb 2025)**
 - Built Streamlit UI  
@@ -188,3 +187,4 @@ backend/uploads/
 ## 📄 License
 
 This project is licensed under the **MIT License**.
+
