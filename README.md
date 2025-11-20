@@ -165,7 +165,7 @@ backend/uploads/
 - Notebooks:  
   - *Week2-Model-Training-Evaluation-Predictions.ipynb*  
 
-### **Week 3 — Streamlit App & Deployment (4–7 Feb 2025)**
+### **Week 3 — Streamlit App & Deployment**
 - Built Streamlit UI  
 - Deployed model on Kaggle & GitHub  
 - Finalized documentation  
@@ -187,4 +187,5 @@ backend/uploads/
 ## 📄 License
 
 This project is licensed under the **MIT License**.
+
 
